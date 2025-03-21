@@ -1,0 +1,99 @@
+.imgcatalog{
+    width: 100%;
+    max-width: 254px;
+    max-height: 254px;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.catalogmain{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.cardcatalogmain{
+    width: 100%;
+    height: 100%;
+    max-height: 319px;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.filter1{
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+}
+.formradio{
+    border-radius: 1px;
+}
+.catalogmain1{
+    padding-top: 30px;
+    max-width: 1347px;
+    width: 100%;
+    display: grid;
+    column-gap: 20px;
+    row-gap: 46px;
+    grid-template-columns : repeat(5, auto);
+    
+}
+.formradio1{
+    max-width: 253px;
+    max-height: 520px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.formradio{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Select{
+    color: #E86535;
+    font-weight: 700;
+    border: 1px solid white;
+    font-size: 18px;
+}
+.labelform{
+    font-weight: 700;
+    font-size: 18PX;
+    margin-right: 11px;
+}
+.catalogcardname{
+    padding-top: 5px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 14;
+}
+.catalogcarddesc{
+    margin: 0;
+    padding-top: 3px;
+    font-weight: 400;
+    font-size: 14;
+    color: #646363;
+}
+.catalogcardprice{
+    margin: 0px ;
+    font-weight: 500;
+    font-size: 14;
+    color: #E86535;
+}
+.filtertextmain{
+    margin: 0;
+    padding-top: 13px;
+    text-align: center;
+}
+.rightcatalog{
+    padding-top: 13px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}

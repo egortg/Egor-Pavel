@@ -1,0 +1,104 @@
+.cartheadinfo{
+    width: 100%;
+    max-width: 1620px;
+    display: grid;
+    grid-template-columns :  211px 460px 229px 530px 300px;
+}
+.cartmegamain{
+   justify-self: center;
+}
+.box-5{
+    justify-self:end;
+}
+.imagecart{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+.cartmain{
+    width: 100%;
+    max-width: 1620px;
+    display: grid;
+    grid-template-columns :  211px 460px 229px 530px 300px;
+    margin-bottom: 50px;
+}
+.quantitydivcart{
+    display: grid;
+    grid-template-columns : 50px 50px 50px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.cartoplatadiv{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    justify-self: end;
+    max-width: 1072px;
+    width: 100%;
+}
+
+.oplatabtn{
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+    min-width: 581px;
+    max-width: 581px;
+    height: 52px;
+    border: 2px solid #E86535;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 525px;
+    color: black;
+    
+}
+.oplatabtn:hover{
+    transition: 0.2s;
+    background-color: #E86535;
+}
+.oplatabtn:active{
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+-moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+    transition: 0.1s;
+    box-shadow: #413B39;
+    background-color: #D25E34;
+}
+.topdesccart{
+    font-weight: 400;
+    font-size: 16px;
+}
+.cartname{
+    font-weight: 400;
+    font-size: 32px;
+}
+.cartprice{
+    font-weight: 400;
+    font-size: 24px;
+    color: #E86535;
+}
+.totalsumdiv{
+    display: flex;
+    gap: 10px;
+}
+.totalsum1{
+font-weight: 400;
+font-size: 24px;
+}
+.totalsum2{
+    font-weight: 400;
+font-size: 24px;
+color: #E86535;
+
+}
+.minusplusquan{
+    cursor: pointer;
+}
+.maintextcartcorz{
+    font-weight: 700;
+    font-size: 42px;
+    color: #E86535;
+    margin-bottom: 77px;
+}
